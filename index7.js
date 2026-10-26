@@ -27,12 +27,13 @@ if (Symbols){
         allowedSymbols.push(els)
     })
 }
-const CompletePassword = ""
+const CompletePassword = []
 for (let i = 0; i < UserParol; i++) {
     allowedSymbols.forEach((elms) => {
         const RandomSymbol = Math.floor(Math.random * allowedSymbols)
-        
+        CompletePassword.push(RandomSymbol)
     })
     
 }
+alert(`${CompletePassword}`)
 
