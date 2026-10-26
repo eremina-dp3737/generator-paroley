@@ -4,6 +4,7 @@ const numbers   = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 const symbols   = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '-'];
 const allowedSymbols = []
 
+
 lowercase.forEach((elems) => {
     allowedSymbols.push(elems)
 })
@@ -20,10 +21,18 @@ if (Numbers){
     })
 }
 
-const Symbols = confirm("Нужны ли спецсимволы")
+const Symbols = confirm("Нужны ли спецсимволы?")
 if (Symbols){
     symbols.forEach((els) => {
         allowedSymbols.push(els)
     })
 }
-console.log(allowedSymbols)
+const CompletePassword = ""
+for (let i = 0; i < UserParol; i++) {
+    allowedSymbols.forEach((elms) => {
+        const RandomSymbol = Math.floor(Math.random * allowedSymbols)
+        
+    })
+    
+}
+alert(`Пароль ${CompletePassword}`)
