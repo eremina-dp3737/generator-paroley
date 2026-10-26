@@ -3,7 +3,7 @@ const uppercase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', '
 const numbers   = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 const symbols   = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '-'];
 const allowedSymbols = []
-
+const RandomSymbol = 0
 
 lowercase.forEach((elems) => {
     allowedSymbols.push(elems)
@@ -35,4 +35,4 @@ for (let i = 0; i < UserParol; i++) {
     })
     
 }
-alert(`Пароль ${CompletePassword}`)
+
